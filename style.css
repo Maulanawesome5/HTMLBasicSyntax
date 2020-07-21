@@ -1,0 +1,18 @@
+h1{
+	font-family: impact;
+	text-align: center;
+}
+
+h2{
+	font-family: times-new-roman, serif;
+	font-variant: small-caps;
+}
+
+h3{
+	font-family: georgia, serif;
+}
+
+p{
+	font-family: georgia, serif;
+	line-height: 20px;
+}
