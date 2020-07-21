@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pemrograman Web 4</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Latihan HTML">
+	<meta name="keyword" content="HTML,CSS,Javascript">
+	<meta name="author" content="Maulana Aji W">
+</head>
+<body>
+	<p>Seperti yang dijelaskan sebelumnya, pengertian form HTML adalah sebuah elemen untuk mengelola data dari input yang dilakukan oleh user. Form ada dua macam, yaitu form login dan form registrasi. Lalu didalam form terdapat beberapa elemen yang biasa digunakan seperti input, textarea, select, button, dan label</p>
+	<h2>1. Tag Input</h2>
+	<form>
+		<label for="username">username :</label>
+		<input type="text" id="username">
+		<br>
+		<label for="password">password :</label>
+		<input type="password" id="password">
+	</form>
+	<br>
+	<h2>2. Tag Radio Button</h2>
+	<form>
+		<input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+		<input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Wanita</label>
+	</form>
+	<br>
+	<h2>3. Tag Checkbox Button</h2>
+	<form>
+		<input type="checkbox" id="menyanyi"><label for="menyanyi">Menyanyi</label>
+		<input type="checkbox" id="olahraga"><label for="olahraga">Olahraga</label>
+		<input type="checkbox" id="travelling"><label for="travelling">Travelling</label>
+	</form>
+	<br>
+	<h2>4. Tag Submit Button</h2>
+	<form>
+		<button type="submit">Kirim</button> 
+	</form>
+	<br>
+	<h2>5. Tag Text Area</h2>
+	<form>
+		<label>Isi pada kolom dibawah</label>
+		<br>
+		<textarea></textarea>
+	</form>
+	<h2>6. Tag Dropdown Menu (Multiple List)</h2>
+	<form>
+		<select>
+			<option>Pilihan 1</option>
+			<option>Pilihan 2</option>
+			<option>Pilihan 3</option>
+		</select>
+	</form>
+	<br>
+	<h2>7. Latihan FORM HTML</h2>
+	<form>
+		<table cellspacing="0" cellpadding="5" width="400px">
+			<tr>
+				<td><label for="username">Username :</label></td>
+				<td><input type="text" id="username"></td>
+			</tr>
+			<tr>
+				<td><label for="password">Password :</label></td>
+				<td><input type="password" id="password"></td>
+			</tr>
+			<tr>
+				<td><label>Gender :</label></td>
+				<td><input type="radio" id="male" name="gender"><label for="male">Male</label>
+				<input type="radio" id="female" name="gender"><label for="female">Female</label></td>
+			</tr>
+			<tr>
+				<td><label>Address :</label></td>
+				<td><textarea></textarea></td>
+			</tr>
+			<tr>
+				<td><label>Education :</label></td>
+				<td>
+					<select>
+						<option>SMP</option>
+						<option>SMA/SMK</option>
+						<option>D3</option>
+						<option>S1</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label></label></td>
+				<td><button type="submit">SEND</button></td>
+			</tr>
+		</table>
+	</form>
+	<br>
+	<p><a href="halaman1.html">KEMBALI KE HALAMAN 1</a></p>
+
+</body>
+</html>
