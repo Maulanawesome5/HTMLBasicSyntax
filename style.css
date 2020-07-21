@@ -1,26 +1,42 @@
 body{
-	background-color: #2a2a2a;
+	background-color: #24a19c;
 }
 
 h1{
 	font-family: impact;
 	text-align: center;
-	color: #9c9c9c;
+	color: #1b262c;
 }
 
 h2{
 	font-family: times-new-roman, serif;
 	font-variant: small-caps;
-	color: #9c9c9c;
+	color: #1b262c;
 }
 
 h3{
 	font-family: georgia, serif;
-	color: #9c9c9c;
+	color: #222831;
 }
 
 p{
 	font-family: georgia, serif;
 	line-height: 20px;
-	color: #9c9c9c;
+	color: #222831;
+}
+
+ul{
+	color: #222831;
+}
+
+ol{
+	color: #222831;
+}
+
+dl{
+	color: #222831;
+}
+
+br{
+	color: #222831;
 }
