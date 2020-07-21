@@ -1,3 +1,4 @@
 # HTMLBasicSyntax
-This is just HTML Basic Syntax what I learned from website w3schools.com
-And i learn from Web Programming UNPAS on Youtube
+Semua syntax HTML yang ada didalam repository ini dipelajari dari :
+Website : https://www.w3schools.com/html/default.asp 
+Youtube : https://www.youtube.com/c/WebProgrammingUNPAS/playlists?view=50&sort=dd&shelf_id=8
