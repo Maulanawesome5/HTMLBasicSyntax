@@ -1,18 +1,26 @@
+body{
+	background-color: #2a2a2a;
+}
+
 h1{
 	font-family: impact;
 	text-align: center;
+	color: #9c9c9c;
 }
 
 h2{
 	font-family: times-new-roman, serif;
 	font-variant: small-caps;
+	color: #9c9c9c;
 }
 
 h3{
 	font-family: georgia, serif;
+	color: #9c9c9c;
 }
 
 p{
 	font-family: georgia, serif;
 	line-height: 20px;
+	color: #9c9c9c;
 }
