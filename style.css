@@ -1,42 +1,46 @@
 body{
 	background-color: #24a19c;
-}
+	background-image: url(spikes/spikes/spikes.png);
+}/* Syntax untuk mengubah warna background halaman */
 
 h1{
 	font-family: impact;
 	text-align: center;
+	letter-spacing: 2px;
 	color: #1b262c;
-}
+}/* Syntax untuk properti judul paling atas */
 
 h2{
 	font-family: times-new-roman, serif;
 	font-variant: small-caps;
 	color: #1b262c;
-}
+}/* Syntax untuk mengubah properti sub judul (topik) pada halaman */
 
 h3{
 	font-family: georgia, serif;
 	color: #222831;
-}
+}/* Syntax untuk bagian judul ordered list dan unordered list */
 
 p{
 	font-family: georgia, serif;
 	line-height: 20px;
+	text-align: justify;
 	color: #222831;
-}
+}/* untuk tulisan bagian paragraf */
 
 ul{
 	color: #222831;
-}
+}/* untuk mengubah warna shape UL */
 
 ol{
 	color: #222831;
-}
+}/* untuk mengubah warna shape OL */
 
 dl{
 	color: #222831;
 }
 
-br{
-	color: #222831;
-}
+
+a{
+	text-decoration: none;
+}/* Mengatur property text hyperlink */
