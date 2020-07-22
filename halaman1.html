@@ -2,13 +2,17 @@
 <html>
 <head>
 	<title>Pemrograman Web 1</title>
+	<link rel="stylesheet" href="style.css">
 	<meta charset="utf-8">
 	<meta name="description" content="Latihan HTML">
 	<meta name="keyword" content="HTML,CSS,Javascript">
 	<meta name="author" content="Maulana Aji W">
 </head>
 <body>
+<div id="header">
 	<h1>Kuliah HTML channel Web Programming UNPAS</h1>
+</div><!-- PENUTUP TAG DIV HEADER -->
+<div id="content">
 	<h2 id="topik1">TOPIK 1</h2>
 	<p>Hallo hallo</p>
 	<p>Mari kita ngoding web bersama. Belajar <b>HTML</b> bersama Pak Sandhika Galih, seorang dosen dari Universitas Pasundan. Dalam materi ini kita akan membahas tag-tag dasar yang ada pada HTML. HTML merupakan akronim dari <i>Hypertext Markup Language</i>, suatu bahasa markup yang menyusun tampilan halaman web.</p>
@@ -63,19 +67,19 @@
 	<hr>
 	<h2>TOPIK 5</h2>
 	<p>Pada topik kelima ini adalah untuk membahas tentang penggunaan tag hyperlink. Hyperlink memakai tag anchor (a dan /a). Terdapat tiga macam hyperlink didalam HTML yaitu external link, internal/relative link, dan page anchor. Dibawah ini merupakan contoh penggunaan hyperlink</p>
-	<br>Hyperlink External :
+	<p>Hyperlink External :</p>
 	<ul type="circle">
 		<li><a href="http://www.facebook.com" target="_blank">Welcome to facebook</a></li>
 		<li><a href="http://www.instagram.com" target="_blank">Welcome to instagram</a></li>
 		<li><a href="http://www.twitter.com" target="_blank">Welcome to twitter</a></li>
 	</ul>
-	<br>Hyperlink Internal/Relative :
+	<p>Hyperlink Internal/Relative :</p>
 	<ul type="circle">
 		<li><a href="../HTMLBasicSyntax-master/HTML-01.html" target="_self">Latihan HTML 1</a></li>
 		<li><a href="../HTMLBasicSyntax-master/HTML-02.html" target="_self">Latihan HTML 2</a></li>
 		<li><a href="../HTMLBasicSyntax-master/HTML-03.html" target="_self">Latihan HTML 3</a></li>
 	</ul>
-	<br>Hyperlink Page Anchor :
+	<p>Hyperlink Page Anchor :</p>
 	<ul>
 		<li><a href="#topik1">TOPIK 1</a></li>
 		<li><a href="#topik2">TOPIK 2</a></li>
@@ -84,7 +88,18 @@
 	</ul>
 	<hr>
 	<h2>TOPIK 6</h2>
+	<p>Dalam topik yang ke-enam ini adalah untuk membahas penggunaan tag image untuk menambahkan foto didalam dokumen HTML dan akan tampil pada website Anda. Tag image sendiri ada tiga macam yaitu image internal, image external (hotlink) dan image hyperlink. Klik link dibawah untuk melihat tampilan tag image</p>
+	<p><a href="halaman2.html" target="_blank">Halaman 2</a></p>
+	<hr>
+	<h2>TOPIK 7</h2>
+	<p>Pada topik ke tujuh ini adalah untuk pembahasan tag tabel dari HTML. Tabel sendiri berfungsi untuk menampilkan suatu data dari website. Tabel terdiri dari baris dan kolom, lalu perpotongan antara baris dan kolom disebut sebagai cell. Dalam cell inilah data website akan dimasukkan. Struktur tag tabel terdiri dari (table), lalu table row (tr) dan table data (td). Untuk mengetahui bagaimana susunan dari tabel adalah pada halaman <a href="halaman3.html" target="_blank">Pemrograman Web 3</a></p>
+	<hr>
+	<h2>TOPIK 8</h2>
+	<p>Topik ke delapan ini akan membahas tentang penggunaan form HTML pada pemrograman web. Form adalah sebuah elemen HTML untuk mengelola data dari input yang dilakukan oleh user. Form ada dua macam, yaitu form login dan form registrasi. Pada halaman <a href="halaman4.html">Pemrograman Web 4</a> inilah contoh form</p>
 
-
+</div><!-- PENUTUP TAG DIV CONTENT -->
+<div id="footer">
+	<p>&copy; 2020 website Latihan. Credit to Sandhika Galih</p>
+</div>
 </body>
 </html>
